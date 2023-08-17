@@ -5,7 +5,7 @@
 2. Verify if `Traffic Light Lanelet ID` component has been added to `Traffic Light` game objects.
 ![verify traffic light lanelet id](verify_traffic_light_lanelet_id.png)
 
-3. Verify if `WayID` and `RelationID` has been correctly assigned. You can use [Vector Map Builder](https://tools.tier4.jp/vector_map_builder_ll2/) as presented below
+3. Verify if `WayID` and `RelationID` has been correctly assigned. You can use [Vector Map Builder](https://tools.tier4.jp) as presented below
 ![verify lanelet ids](verify_lanelet_ids.png)
 
 ## Add manually `Traffic Light Lanelet ID` component
