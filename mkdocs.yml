@@ -93,6 +93,9 @@ nav:
                                                 - Load items from lanelet2: DeveloperGuide/Tutorials/AddARandomTraffic/LoadItemsFromLanelet/index.md
                                                 - Add a RandomTraffic: DeveloperGuide/Tutorials/AddARandomTraffic/AddARandomTrafficSimulatorScript/index.md
                                                 - Add a TrafficIntersection: DeveloperGuide/Tutorials/AddARandomTraffic/AddATrafficIntersection/index.md
+                                      - Add V2I:
+                                                - Assign Lanelet2 IDs to TrafficLights: DeveloperGuide/Tutorials/AddV2I/AssignLaneletIDs/index.md
+                                                - Add V2I: DeveloperGuide/Tutorials/AddV2I/AddV2I/index.md
                             - Add a new Vehicle:
                                       - Add a Vehicle: DeveloperGuide/Tutorials/AddANewVehicle/index.md
                                       - Add Visual Elements: DeveloperGuide/Tutorials/AddANewVehicle/AddVisualElements/index.md
