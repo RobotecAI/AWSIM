@@ -19,7 +19,7 @@ The `gnss_link` frame is added to the `sensor_kit_base_link` in the `base_link` 
 
 ![link](link.png)
 
-A detailed description of the `URDF` structure and sensors added to prefab `Lexus RX450h 2015` is available in this [section](../../../Components/Vehicle/URDFAndSensors/).
+A detailed description of the `URDF` structure and sensors added to prefab `Lexus RX450h 2015` is available in this [section](../../EgoVehicle/URDF/).
 
 ### Components
 ![components](components.png)
