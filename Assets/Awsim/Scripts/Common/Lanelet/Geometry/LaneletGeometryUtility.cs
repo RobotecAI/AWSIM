@@ -93,6 +93,22 @@ namespace Awsim.Common
             return resampledPoints.ToArray();
         }
 
+        public static Vector3[] SwapXY(Vector3[] vectors)
+        {
+            if (vectors == null)
+                return null;
+
+            Vector3[] result = new Vector3[vectors.Length];
+
+            for (int i = 0; i < vectors.Length; i++)
+            {
+                Vector3 v = vectors[i];
+                result[i] = new Vector3(-v.z, v.y, v.x);
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// Reduce the number of points of the polyline according to the parameters.
         /// </summary>
@@ -104,7 +120,7 @@ namespace Awsim.Common
                 return new Vector3[] { };
 
             if (points.Length == 1)
-                return new[] { points[0] };
+                return SwapXY(new[] { points[0] });
 
             var resampledPoints = new List<Vector3>();
             var lastVertex = points[0];
@@ -127,7 +143,7 @@ namespace Awsim.Common
             }
 
             resampledPoints.Add(points.Last());
-            return resampledPoints.ToArray();
+            return SwapXY(resampledPoints.ToArray());
         }
 
         /// <summary>
